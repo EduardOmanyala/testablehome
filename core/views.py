@@ -3,4 +3,4 @@ from django.shortcuts import render, redirect
 # Create your views here.
 
 def home(request):
-    return redirect('https://kpsea.testprepken.com')
+    return render(request, 'core/home.html')
